@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"
+        app:showAsAction="never"
+        android:orderInCategory="120"
+        ></item>
+    <item
+        android:title="Main Menu"
+        android:id="@+id/main"
+        app:showAsAction="never"
+        android:orderInCategory="101"></item>
+    <item
+        android:title="Copy"
+        android:id="@+id/copy"
+        app:showAsAction="never"
+        android:orderInCategory="102"></item>
+
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        app:showAsAction="never"
+        android:orderInCategory="103"></item>
+
+    <item
+        android:id="@+id/mode1"
+        android:icon="@drawable/light"
+        android:title="Night Mode"
+        android:contentDescription="Night Mode"
+        app:showAsAction="always">
+    ></item>
+
+
+    <item
+        android:id="@+id/mode2"
+        android:icon="@drawable/lightw"
+        android:title="DayLight Mode"
+        android:contentDescription="Day-light Mode"
+        app:showAsAction="always">
+        ></item>
+    <item
+        android:id="@+id/speak"
+        android:icon="@drawable/speaker1"
+        android:title="Speak"
+        android:contentDescription="Day-light Mode"
+        app:showAsAction="always">
+        ></item>
+</menu>

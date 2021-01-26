@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:actionBarNavMode="list"
+    tools:context="com.example.ayinlakwamdeen.truthordare.SplashScreen">
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/tord"
+
+    android:layout_above="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="31dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:text="QM Tech 2018."
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

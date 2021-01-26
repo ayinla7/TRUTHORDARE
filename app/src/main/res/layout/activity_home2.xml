@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@android:color/background_dark"
+    android:orientation="vertical"
+    android:weightSum="1"
+
+    tools:context="com.example.ayinlakwamdeen.truthordare.Home2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+
+        tools:ignore="InefficientWeight,UselessParent">
+
+        <Button
+            android:id="@+id/teens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/students"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="start"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="0.06"
+            android:background="@android:color/holo_red_dark"
+            android:text="TEENS"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <Button
+            android:id="@+id/students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/family"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="start"
+            android:layout_marginBottom="19dp"
+            android:layout_weight="0.06"
+            android:background="@android:color/holo_red_dark"
+            android:text="STUDENTS"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <Button
+            android:id="@+id/family"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/group"
+            android:layout_gravity="start"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.06"
+            android:background="@android:color/holo_red_dark"
+            android:text="FAMILY"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <Button
+            android:id="@+id/group"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="start"
+            android:layout_marginBottom="167dp"
+            android:layout_weight="0.06"
+            android:background="@android:color/holo_red_dark"
+            android:text="GROUP"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+        <Button
+            android:id="@+id/adult"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/family"
+            android:layout_gravity="start"
+            android:layout_marginTop="77dp"
+            android:layout_weight="0.06"
+            android:background="@android:color/holo_red_dark"
+            android:text="ADULT"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <Button
+            android:id="@+id/couple"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/adult"
+            android:layout_gravity="start"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.06"
+            android:background="@android:color/holo_red_dark"
+            android:text="COUPLE"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="QM Tech,2017."
+            android:textColor="?android:attr/colorPressedHighlight"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+</LinearLayout>

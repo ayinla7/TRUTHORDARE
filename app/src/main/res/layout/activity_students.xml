@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:drawable/alert_dark_frame"
+    android:backgroundTint="@android:color/background_dark"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    tools:context="com.example.ayinlakwamdeen.truthordare.students">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:background="@android:drawable/alert_dark_frame"
+            android:gravity="center"
+            android:hint="TRUTH OR DARE "
+            android:textColor="@android:color/holo_blue_dark"
+            android:textColorHint="@color/colorPrimaryDark"
+            tools:ignore="HardcodedText,InefficientWeight,LabelFor,TextFields" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/coin"
+            android:layout_width="166dp"
+            android:layout_height="205dp"
+            android:layout_gravity="top|center|fill"
+            android:src="@drawable/dice1"
+            android:clickable="true"
+            android:onClick=""
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

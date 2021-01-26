@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayinlakwamdeen.truthordare.MainActivity1">
+
+
+    <RadioGroup
+        android:id="@+id/answer1"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        tools:layout_height="match_parent"
+        tools:ignore="ObsoleteLayoutParam,UselessParent">
+
+        <RadioButton
+        android:id="@+id/type1"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:text="type 1"
+        tools:ignore="HardcodedText" />
+
+
+        <RadioButton
+            android:id="@+id/type2"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:text="type 2"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/savebtn"
+            android:layout_width="200dp"
+            android:layout_height="61dp"
+            android:text="Button" />
+
+    </RadioGroup>
+</RelativeLayout>
